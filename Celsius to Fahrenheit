@@ -1,0 +1,9 @@
+"""Desenvolva um programa para converter a temperatura de Celsius para Fahrenheit.
+A fórmula de conversão é: f = (c * 9/5) + 32"""
+# extra de conversão de temperatura
+
+c = float(input("Entre com a temperatura Celsius: "))
+
+f = (c * 9/5) + 32
+
+print("\n",c, "\nA temperatura Fahrenheit equivale a: ", f)
